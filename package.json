@@ -7,12 +7,15 @@
     "start": "webpack-dev-server --config=config/webpack.dev.js",
     "build": "NODE_ENV=production webpack --config=config/webpack.prod.js"
   },
+  "engines": {
+    "node": "10.16.0"
+  },
   "keywords": [
     "reactjs",
     "shopping",
     "cart"
   ],
-  "author": "Sivadass",
+  "author": "Biswajit",
   "license": "ISC",
   "dependencies": {
     "prop-types": "^15.5.10",
