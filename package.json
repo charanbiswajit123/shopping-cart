@@ -5,8 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "webpack-dev-server --config=config/webpack.dev.js",
-    "build": "NODE_ENV=production webpack --config=config/webpack.prod.js",
-    "heroku-postbuild": "ng build --prod"
+    "build": "NODE_ENV=production webpack --config=config/webpack.prod.js"
   },
   "engines": {
     "node": "10.16.0"
